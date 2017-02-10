@@ -1,6 +1,6 @@
 # BMKUtil
 
-![image](https://github.com/yanlinhong/BMKUtil/blob/master/BMapUtil/BMapUtil/bmk.png)
+![image{0.5,0.5}](https://github.com/yanlinhong/BMKUtil/blob/master/BMapUtil/BMapUtil/bmk.png)
 百度地图多点路径规划
 ===
 这是我自己在github上分享的第一个项目，请大家指点指点
