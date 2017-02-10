@@ -1,0 +1,9 @@
+target 'BMapUtil' do
+
+pod 'BaiduMapKit' 
+
+pod 'Masonry'
+
+pod 'SVProgressHUD'
+
+end

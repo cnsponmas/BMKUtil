@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8515421E4C771C003809A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8515411E4C771C003809A6 /* main.m */; };
+		4F8515451E4C771C003809A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8515441E4C771C003809A6 /* AppDelegate.m */; };
+		4F8515481E4C771C003809A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8515471E4C771C003809A6 /* ViewController.m */; };
+		4F85154B1E4C771C003809A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8515491E4C771C003809A6 /* Main.storyboard */; };
+		4F85154D1E4C771C003809A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F85154C1E4C771C003809A6 /* Assets.xcassets */; };
+		4F8515501E4C771C003809A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F85154E1E4C771C003809A6 /* LaunchScreen.storyboard */; };
+		4F85155F1E4C7B0C003809A6 /* BMKLineZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F85155A1E4C7B0C003809A6 /* BMKLineZoom.m */; };
+		4F8515601E4C7B0C003809A6 /* RouteAnnotation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F85155C1E4C7B0C003809A6 /* RouteAnnotation.mm */; };
+		4F8515611E4C7B0C003809A6 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F85155E1E4C7B0C003809A6 /* UIImage+Rotate.m */; };
+		4F8515641E4C7C9C003809A6 /* YBMKMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8515631E4C7C9C003809A6 /* YBMKMapManager.m */; };
+		4F85156A1E4C7E4D003809A6 /* YBMKError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8515691E4C7E4D003809A6 /* YBMKError.m */; };
+		4F85156D1E4C8033003809A6 /* YBMKMapRoutePlan.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F85156C1E4C8033003809A6 /* YBMKMapRoutePlan.mm */; };
+		4F8515701E4C8076003809A6 /* YBMKAddressItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F85156F1E4C8076003809A6 /* YBMKAddressItem.m */; };
+		FBE84C763BCBD76198BD2904 /* libPods-BMapUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B285E7B92D88E344DF12F3B /* libPods-BMapUtil.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19082FF1C6047DAB5B0E8CD5 /* Pods-BMapUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMapUtil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMapUtil/Pods-BMapUtil.debug.xcconfig"; sourceTree = "<group>"; };
+		4F85153D1E4C771C003809A6 /* BMapUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMapUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8515411E4C771C003809A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F8515431E4C771C003809A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F8515441E4C771C003809A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F8515461E4C771C003809A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F8515471E4C771C003809A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F85154A1E4C771C003809A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F85154C1E4C771C003809A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F85154F1E4C771C003809A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F8515511E4C771C003809A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8515591E4C7B0C003809A6 /* BMKLineZoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKLineZoom.h; sourceTree = "<group>"; };
+		4F85155A1E4C7B0C003809A6 /* BMKLineZoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKLineZoom.m; sourceTree = "<group>"; };
+		4F85155B1E4C7B0C003809A6 /* RouteAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteAnnotation.h; sourceTree = "<group>"; };
+		4F85155C1E4C7B0C003809A6 /* RouteAnnotation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RouteAnnotation.mm; sourceTree = "<group>"; };
+		4F85155D1E4C7B0C003809A6 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		4F85155E1E4C7B0C003809A6 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		4F8515621E4C7C9C003809A6 /* YBMKMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBMKMapManager.h; sourceTree = "<group>"; };
+		4F8515631E4C7C9C003809A6 /* YBMKMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBMKMapManager.m; sourceTree = "<group>"; };
+		4F8515681E4C7E4D003809A6 /* YBMKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBMKError.h; sourceTree = "<group>"; };
+		4F8515691E4C7E4D003809A6 /* YBMKError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBMKError.m; sourceTree = "<group>"; };
+		4F85156B1E4C8033003809A6 /* YBMKMapRoutePlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBMKMapRoutePlan.h; sourceTree = "<group>"; };
+		4F85156C1E4C8033003809A6 /* YBMKMapRoutePlan.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YBMKMapRoutePlan.mm; sourceTree = "<group>"; };
+		4F85156E1E4C8076003809A6 /* YBMKAddressItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBMKAddressItem.h; sourceTree = "<group>"; };
+		4F85156F1E4C8076003809A6 /* YBMKAddressItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBMKAddressItem.m; sourceTree = "<group>"; };
+		8B285E7B92D88E344DF12F3B /* libPods-BMapUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMapUtil.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C14BC8521689156B1AE7844 /* Pods-BMapUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMapUtil.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMapUtil/Pods-BMapUtil.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F85153A1E4C771C003809A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE84C763BCBD76198BD2904 /* libPods-BMapUtil.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282001A80C5B4AFFEC60D811 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19082FF1C6047DAB5B0E8CD5 /* Pods-BMapUtil.debug.xcconfig */,
+				8C14BC8521689156B1AE7844 /* Pods-BMapUtil.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F8515341E4C771C003809A6 = {
+			isa = PBXGroup;
+			children = (
+				4F85153F1E4C771C003809A6 /* BMapUtil */,
+				4F85153E1E4C771C003809A6 /* Products */,
+				282001A80C5B4AFFEC60D811 /* Pods */,
+				E862913D2ECB0A1D3CF4825B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F85153E1E4C771C003809A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F85153D1E4C771C003809A6 /* BMapUtil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F85153F1E4C771C003809A6 /* BMapUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4F8515581E4C7B0C003809A6 /* MapCustom */,
+				4F8515571E4C7AE6003809A6 /* BMUtil */,
+				4F8515431E4C771C003809A6 /* AppDelegate.h */,
+				4F8515441E4C771C003809A6 /* AppDelegate.m */,
+				4F8515461E4C771C003809A6 /* ViewController.h */,
+				4F8515471E4C771C003809A6 /* ViewController.m */,
+				4F8515491E4C771C003809A6 /* Main.storyboard */,
+				4F85154C1E4C771C003809A6 /* Assets.xcassets */,
+				4F85154E1E4C771C003809A6 /* LaunchScreen.storyboard */,
+				4F8515511E4C771C003809A6 /* Info.plist */,
+				4F8515401E4C771C003809A6 /* Supporting Files */,
+			);
+			path = BMapUtil;
+			sourceTree = "<group>";
+		};
+		4F8515401E4C771C003809A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F8515411E4C771C003809A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F8515571E4C7AE6003809A6 /* BMUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4F8515621E4C7C9C003809A6 /* YBMKMapManager.h */,
+				4F8515631E4C7C9C003809A6 /* YBMKMapManager.m */,
+				4F8515681E4C7E4D003809A6 /* YBMKError.h */,
+				4F8515691E4C7E4D003809A6 /* YBMKError.m */,
+				4F85156B1E4C8033003809A6 /* YBMKMapRoutePlan.h */,
+				4F85156C1E4C8033003809A6 /* YBMKMapRoutePlan.mm */,
+				4F85156E1E4C8076003809A6 /* YBMKAddressItem.h */,
+				4F85156F1E4C8076003809A6 /* YBMKAddressItem.m */,
+			);
+			path = BMUtil;
+			sourceTree = "<group>";
+		};
+		4F8515581E4C7B0C003809A6 /* MapCustom */ = {
+			isa = PBXGroup;
+			children = (
+				4F8515591E4C7B0C003809A6 /* BMKLineZoom.h */,
+				4F85155A1E4C7B0C003809A6 /* BMKLineZoom.m */,
+				4F85155B1E4C7B0C003809A6 /* RouteAnnotation.h */,
+				4F85155C1E4C7B0C003809A6 /* RouteAnnotation.mm */,
+				4F85155D1E4C7B0C003809A6 /* UIImage+Rotate.h */,
+				4F85155E1E4C7B0C003809A6 /* UIImage+Rotate.m */,
+			);
+			path = MapCustom;
+			sourceTree = "<group>";
+		};
+		E862913D2ECB0A1D3CF4825B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B285E7B92D88E344DF12F3B /* libPods-BMapUtil.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F85153C1E4C771C003809A6 /* BMapUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8515541E4C771C003809A6 /* Build configuration list for PBXNativeTarget "BMapUtil" */;
+			buildPhases = (
+				2A4BA2676C1BAA3B34713F41 /* [CP] Check Pods Manifest.lock */,
+				4F8515391E4C771C003809A6 /* Sources */,
+				4F85153A1E4C771C003809A6 /* Frameworks */,
+				4F85153B1E4C771C003809A6 /* Resources */,
+				F75ABE207DCF969846CDB598 /* [CP] Embed Pods Frameworks */,
+				1E802711B9A0F03695A9024C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMapUtil;
+			productName = BMapUtil;
+			productReference = 4F85153D1E4C771C003809A6 /* BMapUtil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8515351E4C771C003809A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = developer;
+				TargetAttributes = {
+					4F85153C1E4C771C003809A6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X87B6743QS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F8515381E4C771C003809A6 /* Build configuration list for PBXProject "BMapUtil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F8515341E4C771C003809A6;
+			productRefGroup = 4F85153E1E4C771C003809A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F85153C1E4C771C003809A6 /* BMapUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F85153B1E4C771C003809A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8515501E4C771C003809A6 /* LaunchScreen.storyboard in Resources */,
+				4F85154D1E4C771C003809A6 /* Assets.xcassets in Resources */,
+				4F85154B1E4C771C003809A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E802711B9A0F03695A9024C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BMapUtil/Pods-BMapUtil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A4BA2676C1BAA3B34713F41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F75ABE207DCF969846CDB598 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BMapUtil/Pods-BMapUtil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8515391E4C771C003809A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8515601E4C7B0C003809A6 /* RouteAnnotation.mm in Sources */,
+				4F8515481E4C771C003809A6 /* ViewController.m in Sources */,
+				4F8515701E4C8076003809A6 /* YBMKAddressItem.m in Sources */,
+				4F85156A1E4C7E4D003809A6 /* YBMKError.m in Sources */,
+				4F8515611E4C7B0C003809A6 /* UIImage+Rotate.m in Sources */,
+				4F85156D1E4C8033003809A6 /* YBMKMapRoutePlan.mm in Sources */,
+				4F8515641E4C7C9C003809A6 /* YBMKMapManager.m in Sources */,
+				4F8515451E4C771C003809A6 /* AppDelegate.m in Sources */,
+				4F8515421E4C771C003809A6 /* main.m in Sources */,
+				4F85155F1E4C7B0C003809A6 /* BMKLineZoom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F8515491E4C771C003809A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F85154A1E4C771C003809A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F85154E1E4C771C003809A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F85154F1E4C771C003809A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F8515521E4C771C003809A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F8515531E4C771C003809A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F8515551E4C771C003809A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19082FF1C6047DAB5B0E8CD5 /* Pods-BMapUtil.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X87B6743QS;
+				INFOPLIST_FILE = BMapUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.ZKPlatform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F8515561E4C771C003809A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C14BC8521689156B1AE7844 /* Pods-BMapUtil.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X87B6743QS;
+				INFOPLIST_FILE = BMapUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.ZKPlatform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8515381E4C771C003809A6 /* Build configuration list for PBXProject "BMapUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8515521E4C771C003809A6 /* Debug */,
+				4F8515531E4C771C003809A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8515541E4C771C003809A6 /* Build configuration list for PBXNativeTarget "BMapUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8515551E4C771C003809A6 /* Debug */,
+				4F8515561E4C771C003809A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8515351E4C771C003809A6 /* Project object */;
+}

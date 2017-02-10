@@ -1,0 +1,18 @@
+PODS:
+  - BaiduMapKit (3.2.1)
+  - Masonry (1.0.2)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - BaiduMapKit
+  - Masonry
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  BaiduMapKit: 9c748785aa3dddfc41dcb70c14b21ce32f680930
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 39e9a8f186bd2580d0b309ced19ce01bfe7de424
+
+COCOAPODS: 1.1.1
