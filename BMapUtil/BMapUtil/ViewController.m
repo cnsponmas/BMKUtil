@@ -40,6 +40,7 @@
     }];
    UIButton* startBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [startBtn setTitle:@"开始" forState:UIControlStateNormal];
+    [startBtn setBackgroundColor:[UIColor grayColor]];
     [startBtn addTarget:self action:@selector(startRoute) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:startBtn];
     [startBtn mas_makeConstraints:^(MASConstraintMaker *make) {
