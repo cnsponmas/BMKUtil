@@ -8,7 +8,7 @@
 
 #import "YBMKMapManager.h"
 
-#define BaiduMapKey @"YuFVThWR5KVVaDIHnDEulSKakg7LipjT"
+#define BaiduMapKey @""
 
 #define YBMKMapManagerInstance [YBMKMapManager shareInstance]
 
