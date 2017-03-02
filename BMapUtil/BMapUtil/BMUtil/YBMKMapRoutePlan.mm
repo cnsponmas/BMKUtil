@@ -62,9 +62,11 @@
         NSLog(@"路径规划至少需要两个点");
         return;
     }
-    YBMKMapRoutePlanInstance.addresses = [NSArray arrayWithArray:planNodes];
-    YBMKMapRoutePlanInstance.successBlock = success;
-    [YBMKMapRoutePlanInstance startRoute];
+    YBMKMapRoutePlan *plan = [[YBMKMapRoutePlan alloc]init];
+    
+    plan.addresses = [NSArray arrayWithArray:planNodes];
+    plan.successBlock = success;
+    [plan startRoute];
 }
 
 - (void)startRoute{
